@@ -1,0 +1,8 @@
+import { Icon } from '../components/Icons';
+export default function StoryIntro() {
+  return <section id="top" data-world="0" className="world-chapter chapter-intro" aria-label="Introduction and interactive software assembly">
+    <div className="chapter-layout container"><div className="chapter-copy intro-copy"><p className="world-eyebrow"><span/> TAN ZE QUAN / SOFTWARE DEVELOPER</p><h1>Ideas take<br/><em>shape.</em></h1><p className="chapter-description">I build software people actually use. Web and mobile interfaces, internal tools, and the workflows that connect them.</p><div className="intro-actions"><a className="button button-primary" href="#work">Explore my work <Icon name="arrow" size={18}/></a><a className="intro-resume" href="./Tan_Ze_Quan_Resume.pdf" target="_blank" rel="noopener noreferrer">View resume <Icon name="external" size={15}/></a></div><div className="intro-person"><img src="./assets/portrait.png" width="42" height="42" alt="Tan Ze Quan"/><div><strong>Hey, I’m Ze Quan.</strong><span>Kuala Lumpur, Malaysia</span></div></div><div className="intro-caption"><span className="signal-line"/>SCROLL TO EXPLORE THE FULL STORY</div></div>
+    <div className="chapter-fallback static-instrument" aria-hidden="true"><div className="fallback-plate back">DATA / WORKFLOWS</div><div className="fallback-plate middle">CONNECT / BUILD</div><div className="fallback-plate front"><span>ZQ / INTERFACE ENGINE</span><b>From idea<br/>to interface.</b><i/><i/><i/></div></div></div>
+    <div className="chapter-index container"><span>01 / THE BEGINNING</span><span>WEB · MOBILE · CRM</span></div>
+  </section>;
+}
